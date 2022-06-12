@@ -30,3 +30,15 @@ Auth::routes();
 Route::get('/logout', [HomeController::class, 'index'] )->name('logout');
 Auth::routes();
 
+Route::get('/services', [HomeController::class, 'index'] )->name('services');
+Auth::routes();
+
+Route::get('/signform', [HomeController::class, 'index'] )->name('signform');
+Auth::routes();
+
+Route::get('/signform2', [HomeController::class, 'index'] )->name('signform2');
+Auth::routes();
+
+Route::get('/transfer', [HomeController::class, 'index'] )->name('transfer');
+Auth::routes();
+

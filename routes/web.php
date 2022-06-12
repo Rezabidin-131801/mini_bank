@@ -40,5 +40,4 @@ Route::get('/signform2', [HomeController::class, 'index'] )->name('signform2');
 Auth::routes();
 
 Route::get('/transfer', [HomeController::class, 'index'] )->name('transfer');
-Auth::routes();
-
+Auth::routes()
